@@ -26,8 +26,11 @@ module.exports = {
   // add your custom rules here
   rules: {
     // dwizzel-dev spcific
+    'max-len': [2, 180, 2, {
+      'ignoreUrls': true,
+      'ignoreComments': true
+    }],
     'linebreak-style': 0,
-    // 'no-console': ['error', { allow: ['warn', 'error', 'log'] }],
     'no-console': 0,
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
