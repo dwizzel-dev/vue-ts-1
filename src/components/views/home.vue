@@ -20,8 +20,8 @@ export default {
     ]),
   },
   created() {
-    // this.$consolas.log(`${this.$options.name} View is created!`);
-    // this.$consolas.log(this.author);
+    this.$consolas.log(`${this.$options.name} View is created!`);
+    this.$consolas.log(this.author);
   },
 };
 </script>
