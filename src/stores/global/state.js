@@ -3,6 +3,7 @@
  */
 
 export default{
-  version: '1.0.0',
   name: 'Global Store',
+  version: '1.0.0',
+  author: 'Dwizzel',
 };
