@@ -11,10 +11,10 @@ export default {
     };
   },
   computed: {
-    ...mapState([
+    ...mapState('global', [
       'author',
     ]),
-    ...mapGetters([
+    ...mapGetters('global', [
       'getName',
       'getVersion',
     ]),

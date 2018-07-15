@@ -2,6 +2,7 @@
 const state = {
   name: 'Global Store',
   version: '1.0.0',
+  author: 'Olivier',
 };
 
 const getters = {
@@ -18,6 +19,7 @@ const actions = {
 };
 
 export default {
+  namespaced: true,
   state,
   getters,
   mutations,

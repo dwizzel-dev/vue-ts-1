@@ -8,7 +8,7 @@ import getters from './getters';
 import actions from './actions';
 
 export default {
-  namespaced: false,
+  namespaced: true,
   state,
   getters,
   actions,
